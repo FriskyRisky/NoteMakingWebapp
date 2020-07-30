@@ -3,5 +3,10 @@ MY submission for so delhi web app
 
 
 to run:- 
+install xammp (local server host) https://www.apachefriends.org/index.html
 
-place the intern folder in xammp>htdocs folder and open the index.html file on a local host (I used xammp apache module) example :- localhost/intern/index.html
+place the intern folder in xammp>htdocs folder 
+
+run xammp control panel and start apache module (top left, first one)
+
+open the index.html file on your browser example :- localhost/intern/index.html

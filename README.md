@@ -1,2 +1,2 @@
 # SoDelhi
-MY submission for so delhi internship test
+MY submission for so delhi web app

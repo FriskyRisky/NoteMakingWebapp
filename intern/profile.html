@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://apis.google.com/js/platform.js" async defer></script>
+	<meta name="google-signin-client_id" content="627187181574-3vjikug6567mqtnk7t4qut0ford2uf4u.apps.googleusercontent.com">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/login.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="loadProfile()">
+	<nav>
+            <a id = "notes" href = "note.html">Notes</a>
+            <a class="active" id = "profile" href = "#">My Profile</a>
+    </nav>
+	<div class = "data">
+		<p class = "highlight">My Profile</p>
+		<img id = "profilePic"/> <br/><br/>
+		<p class = "att">Name: </p>
+		<p id="name" class="info"></p><br/><br/>
+		<p class = "att">Email Address: </p>
+		<p id="email" class = "info"></p> <br/><br/>
+		<button onclick="signOut()" class="btn btn-danger">Sign Out</button>
+	</div>
+
+</body>
+</html>
+

@@ -8,4 +8,4 @@ place the intern folder in xammp>htdocs folder
 
 run xammp control panel and start apache module (top left, first one)
 
-open the index.html file on your browser example :- localhost/intern/index.html
+open the index.html file on your browser example :- localhost/intern/login.html
